@@ -1,0 +1,35 @@
+body{
+    font-size: 62.5%;
+}
+
+.title {
+    background: url(pictures/mobile.avif) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+@media screen and (min-width: 855px){
+    .title{
+        background: url(pictures/tablet.avif)no-repeat;
+        background-size: cover;
+    }
+
+}
+@media screen and (min-width: 1024px){
+    .title{
+        background: url(pictures/laptop.avif)no-repeat;
+        background-size: cover;
+    }
+
+}
+@media screen and (min-width: 1440px){
+    .title{
+        background: url(pictures/desktop.avif) no-repeat;
+        background-size: cover;
+    }
+}

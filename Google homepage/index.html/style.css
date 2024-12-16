@@ -1,0 +1,131 @@
+html{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background-color: #202124;
+}
+
+nav{
+    margin:.7rem;
+    display: flex;
+    font-style: none;
+    justify-content: space-between;
+}
+
+a :hover {
+    text-decoration: none;
+}
+
+a{
+    padding: 5px;
+    color: #bdc1c6;
+    text-decoration: none;
+}
+
+.ja {
+    border-radius: 50%;
+}
+
+.left,.right {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.Center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    line-break: normal;
+    border: 1px solid #5f6368;
+    border-radius: 50px 50px 50px 50px;
+    width: 584px;
+    height: 44px;
+    overflow: hidden;
+
+}
+#magnifier{
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+}
+
+#povecalo{
+    width: 20px;
+    height: 20px;
+}
+
+#microphone {
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+    width: 20px;
+    height: 20px; 
+}
+#mikrofon {
+    width: 20px;
+    height: 20px; 
+}
+
+#lens{
+    margin-right: 10px;
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#leca{
+    display: flex;
+    justify-content: end;
+    width: 20px;
+    height: 20px; 
+}
+
+form{
+    max-width: 475px;
+    width:max-content;
+    border: none
+}
+#bar {
+    margin-left: 10px;
+   border: none;
+   width: 476px;
+   background-color: #202124;
+   color: #bdc1c6;
+   outline: none;
+    
+}
+.tekst{
+    width: auto;
+}
+
+.two-button {
+    padding-top: 18px;
+}
+
+.oneone{
+    border: 1px solid #303134;
+    background-color: #303134;
+}
+
+.buttons {
+    margin-top: 1rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    background-color: #303134;
+    color: #e8eaed;
+    border: 0;
+}
+
+.buttons :hover{
+    border: 1px solid #5f6368;
+}

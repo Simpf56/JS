@@ -1,0 +1,40 @@
+/* font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 1140px;
+}
+
+h1{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.986rem;
+}
+
+h2{
+    font-size: 2.074rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3, h4{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.44rem;
+}
+
+li{
+    font-size: 1rem;
+}
+
+.first {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+img{
+    width:100%;
+}
+
